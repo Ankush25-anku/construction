@@ -20,7 +20,7 @@ const HeaderHome1 = () => {
               {/* Logo */}
               <div className="logo">
                 <Link href="/" className="header-logo">
-                  <img src="/assets/img/logo/iPhonese1.png" alt="logo-img" />
+                  <img src="/assets/img/hero/iPhonese1.png" alt="logo-img" />
                   {/* If you want text beside logo → <span className="logo-text">SBC</span> */}
                 </Link>
               </div>
