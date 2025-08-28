@@ -98,17 +98,16 @@ export default function RootLayout({ children }) {
         />
 
         {/* Inline script to check if all scripts loaded */}
-        <Script strategy="afterInteractive">
+        <Script id="check-scripts" strategy="afterInteractive">
           {`
-          console.log("All scripts loaded successfully");
-          
-          // Example: check if jQuery is available
-          if (typeof jQuery !== "undefined") {
-            console.log("jQuery is loaded and working!");
-          } else {
-            console.log("jQuery is NOT loaded");
-          }
-        `}
+    console.log("All scripts loaded successfully");
+    
+    if (typeof jQuery !== "undefined") {
+      console.log("jQuery is loaded and working!");
+    } else {
+      console.log("jQuery is NOT loaded");
+    }
+  `}
         </Script>
       </body>
     </html>
