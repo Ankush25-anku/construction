@@ -48,9 +48,8 @@ const HeaderHome1 = () => {
                           </li>
                         </ul>
                       </li>
-                      <li>
-                        <Link href="/news-details">Blog</Link>
-                      </li>
+                   
+                   
                       <li>
                         <Link href="/contact">Contact</Link>
                       </li>

@@ -47,7 +47,7 @@ const Header3 = () => {
 
                     {/* About */}
                     <li>
-                      <Link href="/about">About Us</Link>
+                      <Link href="/Aboutsection">About Us</Link>
                     </li>
 
                     {/* Pages Dropdown */}
@@ -57,7 +57,7 @@ const Header3 = () => {
                       </Link>
                       <ul className="submenu">
                         <li>
-                          <Link href="/service">Services</Link>
+                          <Link href="/Servicesection">Services</Link>
                         </li>
                         {/* <li>
                           <Link href="/team">Team</Link>
@@ -86,18 +86,6 @@ const Header3 = () => {
                       </ul>
                     </li>
 
-                    {/* Blog Dropdown */}
-                    <li className="has-dropdown">
-                      <Link href="/news-details">Blog</Link>
-                      {/* <ul className="submenu">
-                        <li>
-                          <Link href="/news">Blog</Link>
-                        </li>
-                        <li>
-                          <Link href="/news-details">Blog Details</Link>
-                        </li>
-                      </ul> */}
-                    </li>
 
                     {/* Contact */}
                     <li>
