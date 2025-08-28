@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="footer-content">
                   <div className="logo mb-3">
                     <Link href="/" className="header-logo">
-                      <img src="/assets/img/logo/iphoneSE.png" alt="logo-img" />
+                      <img src="/assets/img/hero/iphonese1.png" alt="logo-img" />
                       {/* If you want text beside logo → <span className="logo-text">SBC</span> */}
                     </Link>
                   </div>
@@ -175,7 +175,7 @@ const Footer = () => {
           <div className="footer-bottom-wrapper">
             <div className="logo-img wow fadeInUp" data-wow-delay=".3s">
               <a href="index.html">
-                <img src="/assets/img/logo/iphoneSE.png" alt="img" />
+                <img src="/assets/img/hero/iphonese1.png" alt="img" />
               </a>
             </div>
             <p className="wow fadeInUp" data-wow-delay=".5s">

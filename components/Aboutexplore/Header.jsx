@@ -19,7 +19,7 @@ const HeaderHome1 = () => {
             <div className="header-left d-flex align-items-center">
               <div className="logo">
                 <Link href="/" className="header-logo">
-                  <img src="/assets/img/logo/iphoneSE.png" alt="logo-img" />
+                  <img src="/assets/img/hero/iphonese1.png" alt="logo-img" />
                 </Link>
               </div>
 
