@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "../../../components/Projectexplore/exploreHeader";
+import HeaderHome1 from "../../../components/Aboutexplore/Header";
 import ExploreBreadcrumb from "../../../components/Projectexplore/ExploreBreadcrumb";
 import ProjectDetails from "../../../components/Projectexplore/ProjectDetails";
 import RelatedProjects from "../../../components/Projectexplore/RelatedProjects";
 import Footer from "../../../components/Projectexplore/projectFooter";
 import ParallaxSection1 from "../../../components/Projectexplore/ParallaxSection1";
 
+
 const page = () => {
   return (
     <div>
-      <Header />
+      <HeaderHome1 />
       <ExploreBreadcrumb />
       <ProjectDetails />
       <ParallaxSection1 />
