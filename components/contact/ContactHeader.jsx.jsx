@@ -61,12 +61,6 @@ const HeaderHome1 = () => {
                       </li>
 
                       <li>
-                        <Link href="/news-details" onClick={closeMenu}>
-                          Blog
-                        </Link>
-                      </li>
-
-                      <li>
                         <Link href="/contact" onClick={closeMenu}>
                           Contact
                         </Link>

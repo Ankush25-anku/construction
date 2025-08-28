@@ -20,7 +20,7 @@ const HeaderHome1 = () => {
               {/* Logo */}
               <div className="logo">
                 <Link href="/" className="header-logo">
-                  <img src="/assets/img/logo/iphoneSE1.png" alt="logo-img" />
+                  <img src="/assets/img/logo/iPhonese1.png" alt="logo-img" />
                   {/* If you want text beside logo → <span className="logo-text">SBC</span> */}
                 </Link>
               </div>
@@ -37,7 +37,7 @@ const HeaderHome1 = () => {
                       {/* Home */}
                       <li className="has-dropdown">
                         <Link href="/">Home</Link>
-                  
+
                         {/* Submenu (uncomment if needed) */}
                         {/* 
                         <ul className="submenu">
@@ -64,18 +64,6 @@ const HeaderHome1 = () => {
                           </li>
                           {/* More submenu items can be added here */}
                         </ul>
-                      </li>
-
-                      {/* Blog */}
-                      <li className="has-dropdown">
-                              <Link href="/news-details">Blog</Link>
-                     
-                        {/* 
-                        <ul className="submenu">
-                          <li><Link href="/news">Blog</Link></li>
-                          <li><Link href="/news-details">Blog Details</Link></li>
-                        </ul> 
-                        */}
                       </li>
 
                       {/* Contact */}
