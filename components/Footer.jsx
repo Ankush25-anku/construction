@@ -125,7 +125,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RC Techbox IT Solution
+                RC Techbox IT Services
               </a>{" "}
               © 2025. All Rights Reserved.
             </p>

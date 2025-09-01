@@ -1,9 +1,18 @@
-"use client"; // ensure client component
+"use client";
 
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const RelatedProjects3 = () => {
+  const router = useRouter();
+
+  // Function to navigate and scroll to top
+  const handleNavigate = (path) => {
+    router.push(path);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <section
       className="service-section fix section-padding section-bg bg-cover"
@@ -16,10 +25,7 @@ const RelatedProjects3 = () => {
             <img src="assets/img/star.png" alt="img" /> Our Projects
           </h6>
           <h2>
-            Related{" "}
-            <span>
-              <b>Projects</b>
-            </span>
+            Related <span><b>Projects</b></span>
           </h2>
         </div>
 
@@ -33,18 +39,19 @@ const RelatedProjects3 = () => {
                   src="assets/img/project/building1.jpg"
                   alt="Affinity Brundhavana"
                 />
-                <Link href="/project-details" className="lets-circle">
+                <button
+                  onClick={() => handleNavigate("/Relatedproject")}
+                  className="lets-circle"
+                >
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </Link>
+                </button>
               </div>
               <div className="portfolio-content">
-                <h6>
-                  <span>//</span> Residential Township
-                </h6>
+                <h6><span>//</span> Residential Township</h6>
                 <h3>
-                  <Link href="/project-details">Affinity Brundhavana</Link>
+                  <Link href="/Relatedproject">Affinity Brundhavana</Link>
                 </h3>
               </div>
             </div>
@@ -58,18 +65,19 @@ const RelatedProjects3 = () => {
                   src="assets/img/project/building3.jpg"
                   alt="Affinity Brundhavana"
                 />
-                <Link href="/project-details" className="lets-circle">
+                <button
+                  onClick={() => handleNavigate("/Relatedproject")}
+                  className="lets-circle"
+                >
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </Link>
+                </button>
               </div>
               <div className="portfolio-content">
-                <h6>
-                  <span>//</span> Premium Apartments
-                </h6>
+                <h6><span>//</span> Premium Apartments</h6>
                 <h3>
-                  <Link href="/project-details">Affinity Brundhavana</Link>
+                  <Link href="/Relatedproject">Affinity Brundhavana</Link>
                 </h3>
               </div>
             </div>
@@ -83,18 +91,19 @@ const RelatedProjects3 = () => {
                   src="assets/img/project/building13.jpg"
                   alt="Affinity Brundhavana"
                 />
-                <Link href="/project-details" className="lets-circle">
+                <button
+                  onClick={() => handleNavigate("/Relatedproject")}
+                  className="lets-circle"
+                >
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </Link>
+                </button>
               </div>
               <div className="portfolio-content">
-                <h6>
-                  <span>//</span> Sustainable Living
-                </h6>
+                <h6><span>//</span> Sustainable Living</h6>
                 <h3>
-                  <Link href="/project-details">Affinity Brundhavana</Link>
+                  <Link href="/Relatedproject">Affinity Brundhavana</Link>
                 </h3>
               </div>
             </div>

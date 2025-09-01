@@ -30,8 +30,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AIForge - AI Startup & Technology HTML Template",
-  description: "AIForge - AI Startup & Technology HTML Template",
+  title: "Sri Balaji Ecstatic Infra LLP",
+  description: "Sri Balaji Ecstatic Infra LLP",
 };
 
 export default function RootLayout({ children }) {
@@ -42,11 +42,8 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="namespace-it" />
-        <meta
-          name="description"
-          content="AIForge - AI Startup & Technology HTML Template"
-        />
-        <title>AIForge - AI Startup & Technology HTML Template</title>
+        <meta name="description" content="Sri Balaji Ecstatic Infra LLP" />
+        <title>Sri Balaji Ecstatic Infra LLP</title>
         <link rel="shortcut icon" href="assets/img/favicon.svg" />
       </head>
       <body

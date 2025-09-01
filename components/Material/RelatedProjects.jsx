@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import Link from "next/link";
 
 const RelatedProjects4 = () => {
   return (
@@ -27,19 +30,21 @@ const RelatedProjects4 = () => {
             <div className="portfolio-card-items">
               <div className="portfolio-image">
                 <img src="assets/img/project/material8.jpg" alt="img" />
-                <a href="/Projectexplore" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <Link
+                  href="/Material"
+                  className="lets-circle"
+                  scroll={true}
+                >
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
                   <span>//</span> creative art
                 </h6>
-                <h3>
-                  <a href="/Projectexplore">Centering Material</a>
-                </h3>
+                <Link href="/Material">Centering Material</Link>
               </div>
             </div>
           </div>
@@ -49,19 +54,21 @@ const RelatedProjects4 = () => {
             <div className="portfolio-card-items">
               <div className="portfolio-image">
                 <img src="assets/img/project/material5.jpg" alt="img" />
-                <a href="/Projectexplore" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <Link
+                  href="/Material"
+                  className="lets-circle"
+                  scroll={true}
+                >
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
                   <span>//</span> creative art
                 </h6>
-                <h3>
-                  <a href="/Projectexplore">Centering Material</a>
-                </h3>
+                <Link href="/Material">Centering Material</Link>
               </div>
             </div>
           </div>
@@ -71,19 +78,21 @@ const RelatedProjects4 = () => {
             <div className="portfolio-card-items">
               <div className="portfolio-image">
                 <img src="assets/img/project/material3.jpg" alt="img" />
-                <a href="/Projectexplore" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <Link
+                  href="/Material"
+                  className="lets-circle"
+                  scroll={true}
+                >
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
                   <span>//</span> creative art
                 </h6>
-                <h3>
-                  <a href="/Projectexplore">Centering Material</a>
-                </h3>
+                <Link href="/Material">Centering Material</Link>
               </div>
             </div>
           </div>
