@@ -13,7 +13,7 @@ const OffcanvasSidebar = () => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <a href="index.html">
-                    <img src="assets/img/hero/iphonese1.png" alt="logo-img" />
+                    <img src="assets/img/hero/modify1.png" alt="logo-img" />
                   </a>
                 </div>
                 <div className="offcanvas__close">

@@ -38,8 +38,11 @@ const TestimonialSection = () => {
             <h6 className="mt-3 wow fadeInUp" data-wow-delay=".3s">
               What Clients Say!!!
             </h6>
-            <h2 className="wow fadeInUp" data-wow-delay=".5s">
-              Clients <span>Feedback</span>
+            <h2
+              className="wow fadeInUp fw-bold fs-1 fs-md-2 fs-lg-1 text-white"
+              data-wow-delay=".5s"
+            >
+              Clients <span className="text-primary">Feedback</span>
             </h2>
           </div>
 
@@ -48,76 +51,76 @@ const TestimonialSection = () => {
             <div className="swiper-wrapper">
               {/* Niranjan */}
               <div className="swiper-slide">
-                <div className="testimonail-content">
-                  <div className="icon">
+                <div className="testimonail-content text-center">
+                  <div className="icon mb-3">
                     <img src="/assets/img/testimonial/quote.png" alt="img" />
                   </div>
-                  <p>
+                  <p className="fw-bold fs-5 lh-lg">
                     Choosing Sri Balaji Ecstatic Infra LLP was the best decision
                     I made for my project. Their team's professionalism,
                     attention to detail, and timely completion made the entire
                     experience hassle-free. I couldn't be happier with the
                     results!
                   </p>
-                  <div className="client-info">
-                    <h3>Niranjan</h3>
+                  <div className="client-info mt-3">
+                    <h3 className="fw-bold fs-4 text-primary">Niranjan</h3>
                   </div>
                 </div>
               </div>
 
               {/* Prathik */}
               <div className="swiper-slide">
-                <div className="testimonail-content">
-                  <div className="icon">
+                <div className="testimonail-content text-center">
+                  <div className="icon mb-3">
                     <img src="/assets/img/testimonial/quote.png" alt="img" />
                   </div>
-                  <p>
+                  <p className="fw-bold fs-5 lh-lg">
                     Sri Balaji Ecstatic Infra LLP exceeded my expectations with
                     their quality craftsmanship and attention to detail. From
                     start to finish, they were professional and transparent,
                     making the entire process smooth and stress-free. Highly
                     recommend them for any construction project!
                   </p>
-                  <div className="client-info">
-                    <h3>Prathik</h3>
+                  <div className="client-info mt-3">
+                    <h3 className="fw-bold fs-4 text-primary">Prathik</h3>
                   </div>
                 </div>
               </div>
 
               {/* Ajay */}
               <div className="swiper-slide">
-                <div className="testimonail-content">
-                  <div className="icon">
+                <div className="testimonail-content text-center">
+                  <div className="icon mb-3">
                     <img src="/assets/img/testimonial/quote.png" alt="img" />
                   </div>
-                  <p>
+                  <p className="fw-bold fs-5 lh-lg">
                     Impressed by the innovative designs and timely delivery from
                     Sri Balaji Ecstatic Infra LLP. Their customer-centric
                     approach ensured that my needs were met every step of the
                     way. A trustworthy choice for anyone looking for a reliable
                     construction partner.
                   </p>
-                  <div className="client-info">
-                    <h3>Ajay</h3>
+                  <div className="client-info mt-3">
+                    <h3 className="fw-bold fs-4 text-primary">Ajay</h3>
                   </div>
                 </div>
               </div>
 
               {/* Harish */}
               <div className="swiper-slide">
-                <div className="testimonail-content">
-                  <div className="icon">
+                <div className="testimonail-content text-center">
+                  <div className="icon mb-3">
                     <img src="/assets/img/testimonial/quote.png" alt="img" />
                   </div>
-                  <p>
+                  <p className="fw-bold fs-5 lh-lg">
                     Sri Balaji Ecstatic Infra LLP stands out for their
                     exceptional workmanship and commitment to sustainability.
                     They delivered a beautiful, eco-friendly space that exceeded
                     my expectations. A top-notch construction company that I
                     would gladly recommend.
                   </p>
-                  <div className="client-info">
-                    <h3>Harish</h3>
+                  <div className="client-info mt-3">
+                    <h3 className="fw-bold fs-4 text-primary">Harish</h3>
                   </div>
                 </div>
               </div>

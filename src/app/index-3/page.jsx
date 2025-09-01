@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../../components/Home3/Header";
+// import Header from "../../../components/Home3/Header";
 import Home3Hero from "../../../components/Home3/Home3Hero";
 import BrandSection from "../../../components/Home3/Brandsection";
 import AboutSectionHome3 from "../../../components/Home3/AboutSectionHome3";
@@ -10,12 +10,12 @@ import ShowcaseSection from "../../../components/Home3/ShowcaseSection";
 import TestimonialSectionHome3 from "../../../components/Home3/TestimonialSectionHome3";
 import ParalaxSection2 from "../../../components/Home3/ParalaxSection2";
 import NewsSectionHome3 from "../../../components/Home3/NewsSectionHome3";
-import FooterHome3 from "../../../components/Home3/FooterHome3";
+// import FooterHome3 from "../../../components/Home3/FooterHome3";
 
 const page = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Home3Hero />
       <BrandSection />
       <AboutSectionHome3 />
@@ -26,7 +26,7 @@ const page = () => {
       <TestimonialSectionHome3 />
       <ParalaxSection2 />
       <NewsSectionHome3 />
-      <FooterHome3 />
+      {/* <FooterHome3 /> */}
     </div>
   );
 };

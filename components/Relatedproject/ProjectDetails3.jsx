@@ -15,14 +15,13 @@ const ProjectDetails3 = () => {
                   </h3>
                   <ul>
                     <li>Company: Sri Balaji Ecstatic</li>
-
-                    <li>Category:Construction & Infrastructure</li>
+                    <li>
+                      Project Name: Affinity Brundhavana
+                    </li>
+                    <li>Category: Residential Township</li>
                     <li>Start: 2007</li>
                     <li>
                       Commitment: <span>On-time Delivery</span>
-                    </li>
-                    <li>
-                      Feedback: <span>Trusted Clients</span>
                     </li>
                   </ul>
                 </div>
@@ -33,7 +32,7 @@ const ProjectDetails3 = () => {
                   <h2>
                     Have any project <span>contact</span> us
                   </h2>
-                  <a href="contact.html" className="theme-btn">
+                  <a href="/contact" className="theme-btn">
                     contact us{" "}
                     <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   </a>
@@ -44,15 +43,16 @@ const ProjectDetails3 = () => {
             {/* Content */}
             <div className="col-xl-8">
               <div className="project-details-content">
-                <h2>We are the Leader in Construction Industry</h2>
+                <h2>Affinity Brundhavana – Redefining Modern Living</h2>
                 <p className="mb-5">
-                  Welcome to Sri Balaji Ecstatic Infra LLP, where innovation
-                  meets craftsmanship and excellence is our standard. Founded in
-                  2007, we have established ourselves as a leading name in the
-                  construction industry, serving clients with integrity and
-                  dedication. Our mission is not only to build structures but to
-                  foster trust, long-term relationships, and sustainable
-                  solutions for communities.
+                  Affinity Brundhavana is a premier residential project
+                  developed by Sri Balaji Ecstatic, designed to combine modern
+                  architecture with serene living. Situated in a prime location,
+                  this township offers thoughtfully planned apartments, green
+                  surroundings, and amenities that cater to the evolving
+                  lifestyle of urban families. Since its inception in 2007, the
+                  project has stood as a symbol of trust, quality, and community
+                  living.
                 </p>
                 <div className="details-image">
                   <img src="/assets/img/project/aff2.jpg" alt="project" />
@@ -60,17 +60,18 @@ const ProjectDetails3 = () => {
 
                 <h2>Our Project Strategy</h2>
                 <p className="mb-4">
-                  Every project begins with perfect planning, supported by our
-                  highly skilled team of engineers and architects. From
-                  conceptualization to execution, our strategy ensures quality
-                  materials, safety standards, and innovative designs are at the
-                  core of everything we deliver.
+                  Affinity Brundhavana was envisioned to create a balance
+                  between comfort and sustainability. From the layout to the
+                  smallest detail, our team focused on optimizing space,
+                  ensuring natural light, and building homes that enhance
+                  quality of life. Every block reflects superior craftsmanship
+                  and meticulous planning.
                 </p>
                 <p className="mb-5">
-                  We focus on sustainability and environmental responsibility,
-                  ensuring that every project is future-ready. Our proven
-                  processes and reliable workforce guarantee on-time delivery
-                  with superior quality.
+                  By adopting eco-friendly construction methods and premium
+                  materials, we ensure that the community is both sustainable
+                  and future-ready. The project emphasizes long-term value,
+                  safety, and timeless design aesthetics.
                 </p>
 
                 <div className="row g-4">
@@ -88,11 +89,12 @@ const ProjectDetails3 = () => {
 
                 <h2>Our Working Process</h2>
                 <p>
-                  At SBC Infra, we believe that construction is more than just
-                  creating buildings — it’s about delivering value, trust, and
-                  long-lasting impact. Our step-by-step process ensures seamless
-                  execution from planning, design, and material sourcing to
-                  final handover.
+                  At Affinity Brundhavana, we believe homes should inspire
+                  comfort and belonging. Our construction process ensures
+                  transparency at every stage — from initial design approvals to
+                  the final handover. Each phase of work is supervised by
+                  experienced engineers and quality experts to maintain
+                  world-class standards.
                 </p>
 
                 <div className="how-to-work-wrapper">
@@ -107,10 +109,10 @@ const ProjectDetails3 = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h3>Perfect Planning</h3>
+                      <h3>Thoughtful Planning</h3>
                       <p>
-                        We create detailed plans to ensure smooth workflow and
-                        timely completion of projects.
+                        Designed with a vision for spacious living, landscaped
+                        greenery, and modern amenities for families.
                       </p>
                     </div>
                   </div>
@@ -126,10 +128,10 @@ const ProjectDetails3 = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h3>Professional Execution</h3>
+                      <h3>Quality Execution</h3>
                       <p>
-                        Our skilled workforce and advanced tools guarantee
-                        flawless delivery and uncompromised quality.
+                        Built with premium materials and advanced techniques,
+                        ensuring durability, safety, and long-term value.
                       </p>
                     </div>
                   </div>
@@ -145,10 +147,10 @@ const ProjectDetails3 = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h3>Trusted Support</h3>
+                      <h3>Community Support</h3>
                       <p>
-                        Even after completion, we stay connected, offering
-                        reliable support and long-term partnership.
+                        Beyond construction, we foster vibrant communities with
+                        dedicated maintenance and long-term service support.
                       </p>
                     </div>
                   </div>
@@ -156,26 +158,29 @@ const ProjectDetails3 = () => {
 
                 <h2>Results & Impact</h2>
                 <p>
-                  Over the years, SBC Infra has completed landmark projects,
-                  from residential communities to commercial spaces and
-                  infrastructure developments. Our projects stand as a testament
-                  to our values — safety, quality, and customer satisfaction.
-                  Each structure reflects our promise to build a better and more
-                  sustainable future.
+                  Affinity Brundhavana has become a landmark residential
+                  project, offering more than just homes — it delivers a
+                  lifestyle. With lush landscapes, modern amenities, and strong
+                  infrastructure, it continues to attract families seeking
+                  comfort, security, and community. The project reflects our
+                  promise of delivering excellence while shaping better living
+                  spaces for generations.
                 </p>
 
                 <ul className="details-list">
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    Commitment to safety and quality at every stage.
+                    Spacious apartments with modern layouts and natural
+                    lighting.
                   </li>
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    On-time delivery with professional workforce support.
+                    On-time delivery with premium quality construction.
                   </li>
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    Sustainable practices ensuring environmental responsibility.
+                    Eco-friendly practices ensuring sustainable community
+                    living.
                   </li>
                 </ul>
               </div>

@@ -34,7 +34,7 @@ const ParallaxSection4 = () => {
               >
                 <i className="fas fa-play"></i>
               </button>
-              <h3>Free training</h3>
+              {/* <h3>Free training</h3> */}
             </>
           ) : (
             <div className="video-popup">

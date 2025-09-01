@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const RelatedProjects2 = () => {
   return (
@@ -26,19 +27,21 @@ const RelatedProjects2 = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/aak2.jpg" alt="img" />
-                <a href="/Projectexplore2" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img src="assets/img/project/aak2.jpg" alt="Aakruthi Arcadia" />
+                <Link href="/Projectexplore2" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Premium Apartments
                 </h6>
                 <h3>
-                  <a href="project-details.html">Stylishly extravagant toy</a>
+                  <Link href="/Projectexplore2">
+                    Aakruthi Arcadia – Phase 1
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -48,19 +51,24 @@ const RelatedProjects2 = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/golkanda.jpg" alt="img" />
-                <a href="/Projectexplore2" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img
+                  src="assets/img/project/golkanda.jpg"
+                  alt="Aakruthi Arcadia"
+                />
+                <Link href="/Projectexplore2" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Premium Apartments
                 </h6>
                 <h3>
-                  <a href="project-details.html">A vintage postcard design</a>
+                  <Link href="/Projectexplore2">
+                    Aakruthi Arcadia – Phase 2
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -70,19 +78,24 @@ const RelatedProjects2 = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/golkanda2.jpg" alt="img" />
-                <a href="/Projectexplore2" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img
+                  src="assets/img/project/golkanda2.jpg"
+                  alt="Aakruthi Arcadia"
+                />
+                <Link href="/Projectexplore2" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Premium Apartments
                 </h6>
                 <h3>
-                  <a href="project-details.html">Color for simple Company</a>
+                  <Link href="/Projectexplore2">
+                    Aakruthi Arcadia – Lifestyle Homes
+                  </Link>
                 </h3>
               </div>
             </div>

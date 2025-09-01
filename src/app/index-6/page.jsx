@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderHome6 from "../../../components/Home6/Header6";
+// import HeaderHome6 from "../../../components/Home6/Header6";
 import Home6Hero from "../../../components/Home6/Home6Hero";
 import Home6Marquee from "../../../components/Home6/Home6Marquee";
 import AboutSectionHome6 from "../../../components/Home6/AboutSectionHome6";
@@ -11,12 +11,12 @@ import FaqSectionHome6 from "../../../components/Home6/FaqSectionHome6";
 import FunfactSectionHome6 from "../../../components/Home6/FunfactSectionHome6";
 import LatestUpdateSectionHome6 from "../../../components/Home6/LatestUpdateSectionHome6";
 import NewsSectionHome6 from "../../../components/Home6/NewsSectionHome6";
-import FooterHome6 from "../../../components/Home6/FooterHome6";
+// import FooterHome6 from "../../../components/Home6/FooterHome6";
 
 const page = () => {
   return (
     <div>
-      <HeaderHome6 />
+      {/* <HeaderHome6 /> */}
       <Home6Hero />
       <Home6Marquee />
       <AboutSectionHome6 />
@@ -28,7 +28,7 @@ const page = () => {
       <FunfactSectionHome6 />
       <LatestUpdateSectionHome6 />
       <NewsSectionHome6 />
-      <FooterHome6 />
+      {/* <FooterHome6 /> */}
     </div>
   );
 };

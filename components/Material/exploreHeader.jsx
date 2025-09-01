@@ -11,7 +11,7 @@ const Header4 = () => {
             {/* Logo */}
             <div className="logo">
               <Link href="/" className="header-logo">
-                <img src="/assets/img/hero1/iphonese1.png" alt="logo-img" />
+                <img src="/assets/img/hero1/Iphone.png" alt="logo-img" />
               </Link>
             </div>
 
@@ -85,8 +85,6 @@ const Header4 = () => {
                         </li> */}
                       </ul>
                     </li>
-
-               
 
                     {/* Contact */}
                     <li>

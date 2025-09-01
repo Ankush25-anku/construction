@@ -15,14 +15,13 @@ const ProjectDetails2 = () => {
                   </h3>
                   <ul>
                     <li>Company: Sri Balaji Ecstatic</li>
-
-                    <li>Category:Construction & Infrastructure</li>
+                    <li>
+                      Project Name: <span>Aakruthi Arcadia</span>
+                    </li>
+                    <li>Category: Construction & Infrastructure</li>
                     <li>Start: 2007</li>
                     <li>
                       Commitment: <span>On-time Delivery</span>
-                    </li>
-                    <li>
-                      Feedback: <span>Trusted Clients</span>
                     </li>
                   </ul>
                 </div>
@@ -33,7 +32,7 @@ const ProjectDetails2 = () => {
                   <h2>
                     Have any project <span>contact</span> us
                   </h2>
-                  <a href="contact.html" className="theme-btn">
+                  <a href="/contact" className="theme-btn">
                     contact us{" "}
                     <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   </a>
@@ -44,33 +43,33 @@ const ProjectDetails2 = () => {
             {/* Content */}
             <div className="col-xl-8">
               <div className="project-details-content">
-                <h2>We are the Leader in Construction Industry</h2>
+                <h2>Aakruthi Arcadia – Redefining Modern Living</h2>
                 <p className="mb-5">
-                  Welcome to Sri Balaji Ecstatic Infra LLP, where innovation
-                  meets craftsmanship and excellence is our standard. Founded in
-                  2007, we have established ourselves as a leading name in the
-                  construction industry, serving clients with integrity and
-                  dedication. Our mission is not only to build structures but to
-                  foster trust, long-term relationships, and sustainable
-                  solutions for communities.
+                  Aakruthi Arcadia by Sri Balaji Ecstatic Infra LLP is more than
+                  just a residential community — it is a thoughtfully designed
+                  living space where comfort meets elegance. Nestled amidst
+                  greenery, Arcadia offers residents a blend of modern
+                  architecture, open spaces, and sustainable practices. With
+                  years of trust since 2007, our vision with Arcadia is to build
+                  homes that inspire, nurture, and last for generations.
                 </p>
                 <div className="details-image">
                   <img src="/assets/img/project/aak1.jpg" alt="project" />
                 </div>
 
-                <h2>Our Project Strategy</h2>
+                <h2>Our Project Vision</h2>
                 <p className="mb-4">
-                  Every project begins with perfect planning, supported by our
-                  highly skilled team of engineers and architects. From
-                  conceptualization to execution, our strategy ensures quality
-                  materials, safety standards, and innovative designs are at the
-                  core of everything we deliver.
+                  Arcadia is planned as a self-sustained residential enclave,
+                  combining luxury with functionality. Every apartment and villa
+                  is designed to maximize natural light, ventilation, and usable
+                  space. The project incorporates world-class amenities, modern
+                  infrastructure, and community-driven spaces that encourage
+                  connection and well-being.
                 </p>
                 <p className="mb-5">
-                  We focus on sustainability and environmental responsibility,
-                  ensuring that every project is future-ready. Our proven
-                  processes and reliable workforce guarantee on-time delivery
-                  with superior quality.
+                  Sustainability lies at the heart of Arcadia — from
+                  eco-friendly construction materials to water harvesting and
+                  green zones, every aspect is designed with the future in mind.
                 </p>
 
                 <div className="row g-4">
@@ -88,11 +87,13 @@ const ProjectDetails2 = () => {
 
                 <h2>Our Working Process</h2>
                 <p>
-                  At SBC Infra, we believe that construction is more than just
-                  creating buildings — it’s about delivering value, trust, and
-                  long-lasting impact. Our step-by-step process ensures seamless
-                  execution from planning, design, and material sourcing to
-                  final handover.
+                  At Aakruthi Arcadia, precision planning and execution ensure
+                  that every milestone is achieved with perfection. From
+                  ideation, layout planning, and material sourcing to the final
+                  handover, our process guarantees transparency, safety, and
+                  excellence. Residents can rely on us not just during
+                  construction, but even after — we stand by our projects with
+                  trusted support.
                 </p>
 
                 <div className="how-to-work-wrapper">
@@ -109,8 +110,8 @@ const ProjectDetails2 = () => {
                     <div className="content">
                       <h3>Perfect Planning</h3>
                       <p>
-                        We create detailed plans to ensure smooth workflow and
-                        timely completion of projects.
+                        From site selection to master layout, every detail of
+                        Arcadia is meticulously planned for maximum value.
                       </p>
                     </div>
                   </div>
@@ -128,8 +129,9 @@ const ProjectDetails2 = () => {
                     <div className="content">
                       <h3>Professional Execution</h3>
                       <p>
-                        Our skilled workforce and advanced tools guarantee
-                        flawless delivery and uncompromised quality.
+                        Using high-quality materials and a skilled workforce,
+                        Arcadia is constructed with an uncompromising commitment
+                        to excellence.
                       </p>
                     </div>
                   </div>
@@ -147,8 +149,8 @@ const ProjectDetails2 = () => {
                     <div className="content">
                       <h3>Trusted Support</h3>
                       <p>
-                        Even after completion, we stay connected, offering
-                        reliable support and long-term partnership.
+                        Even after handover, our dedicated support ensures
+                        residents enjoy a hassle-free living experience.
                       </p>
                     </div>
                   </div>
@@ -156,26 +158,26 @@ const ProjectDetails2 = () => {
 
                 <h2>Results & Impact</h2>
                 <p>
-                  Over the years, SBC Infra has completed landmark projects,
-                  from residential communities to commercial spaces and
-                  infrastructure developments. Our projects stand as a testament
-                  to our values — safety, quality, and customer satisfaction.
-                  Each structure reflects our promise to build a better and more
-                  sustainable future.
+                  Aakruthi Arcadia is envisioned as a landmark development that
+                  enhances lifestyles while respecting nature. With modern
+                  amenities like landscaped gardens, recreational zones, and
+                  state-of-the-art security, it offers a safe and fulfilling
+                  environment. The project stands as proof of our promise —
+                  blending innovation, sustainability, and timeless value.
                 </p>
 
                 <ul className="details-list">
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    Commitment to safety and quality at every stage.
+                    Luxurious homes designed for comfort and elegance.
                   </li>
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    On-time delivery with professional workforce support.
+                    On-time delivery with uncompromised quality standards.
                   </li>
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    Sustainable practices ensuring environmental responsibility.
+                    Sustainable and eco-conscious community living.
                   </li>
                 </ul>
               </div>

@@ -3,6 +3,7 @@ import React from "react";
 const ProjectSection = () => {
   return (
     <section
+      id="projects" // 👈 Added ID for smooth scroll
       className="project-section fix section-padding section-bg bg-cover"
       style={{ backgroundImage: "url('assets/img/project/line-shape.png')" }}
     >

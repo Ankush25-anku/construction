@@ -1,5 +1,5 @@
 import React from "react";
-import Header2 from "../../../components/Home2/Header2";
+// import Header2 from "../../../components/Home2/Header2";
 import HeroSectionHome2 from "../../../components/Home2/HeroSectionHome2";
 import Home2ServiceSection from "../../../components/Home2/Home2servicesection";
 import AboutSectionHome2 from "../../../components/AboutSectionHome2";
@@ -11,12 +11,12 @@ import Faq1 from "../../../components/Home2/Faq1";
 import BrandSection2 from "../../../components/Home2/BrandSection2";
 import HowToWork from "../../../components/Home2/HowToWork";
 import NewsSection from "../../../components/Home2/NewsSection";
-import Footer1 from "../../../components/Home2/Footer1";
+// import Footer1 from "../../../components/Home2/Footer1";
 
 const page = () => {
   return (
     <div>
-      <Header2 />
+      {/* <Header2 /> */}
       <HeroSectionHome2 />
       <Home2ServiceSection />
       <AboutSectionHome2 />
@@ -28,7 +28,7 @@ const page = () => {
       <BrandSection2 />
       <HowToWork />
       <NewsSection />
-      <Footer1 />
+      {/* <Footer1 /> */}
     </div>
   );
 };

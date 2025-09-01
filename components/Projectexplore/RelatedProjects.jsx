@@ -1,4 +1,7 @@
+"use client"; // make it a client component so it can use next/link
+
 import React from "react";
+import Link from "next/link";
 
 const RelatedProjects = () => {
   return (
@@ -15,7 +18,7 @@ const RelatedProjects = () => {
           <h2>
             Related{" "}
             <span>
-              <b>projects</b>
+              <b>Projects</b>
             </span>
           </h2>
         </div>
@@ -26,19 +29,19 @@ const RelatedProjects = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/saideep1.jpg" alt="img" />
-                <a href="/Projectexplore" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img src="assets/img/project/saideep1.jpg" alt="Ace Ananta" />
+                <Link href="/Projectexplore" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Residential Project
                 </h6>
                 <h3>
-                  <a href="project-details.html">Stylishly extravagant toy</a>
+                  <Link href="/Projectexplore">Ace Ananta – Phase 1</Link>
                 </h3>
               </div>
             </div>
@@ -48,19 +51,21 @@ const RelatedProjects = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/Ace33.jpg" alt="img" />
-                <a href="/Projectexplore" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img src="assets/img/project/Ace33.jpg" alt="Ace Ananta" />
+                <Link href="/Projectexplore" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Luxury Living
                 </h6>
                 <h3>
-                  <a href="project-details.html">A vintage postcard design</a>
+                  <Link href="/Projectexplore">
+                    Ace Ananta – Premium Towers
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -70,19 +75,21 @@ const RelatedProjects = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/saideep2.jpg" alt="img" />
-                <a href="/Projectexplore" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img src="assets/img/project/saideep2.jpg" alt="Ace Ananta" />
+                <Link href="/Projectexplore" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Sustainable Homes
                 </h6>
                 <h3>
-                  <a href="project-details.html">Color for simple Company</a>
+                  <Link href="/Projectexplore">
+                    Ace Ananta – Green Community
+                  </Link>
                 </h3>
               </div>
             </div>

@@ -1,4 +1,7 @@
+"use client"; // ensure client component
+
 import React from "react";
+import Link from "next/link";
 
 const RelatedProjects3 = () => {
   return (
@@ -10,12 +13,12 @@ const RelatedProjects3 = () => {
         {/* Section Title */}
         <div className="section-title">
           <h6>
-            <img src="assets/img/star.png" alt="img" /> our projects
+            <img src="assets/img/star.png" alt="img" /> Our Projects
           </h6>
           <h2>
             Related{" "}
             <span>
-              <b>projects</b>
+              <b>Projects</b>
             </span>
           </h2>
         </div>
@@ -26,19 +29,22 @@ const RelatedProjects3 = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/building1.jpg" alt="img" />
-                <a href="contact.html" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img
+                  src="assets/img/project/building1.jpg"
+                  alt="Affinity Brundhavana"
+                />
+                <Link href="/project-details" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Residential Township
                 </h6>
                 <h3>
-                  <a href="project-details.html">Stylishly extravagant toy</a>
+                  <Link href="/project-details">Affinity Brundhavana</Link>
                 </h3>
               </div>
             </div>
@@ -48,19 +54,22 @@ const RelatedProjects3 = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/building3.jpg" alt="img" />
-                <a href="contact.html" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img
+                  src="assets/img/project/building3.jpg"
+                  alt="Affinity Brundhavana"
+                />
+                <Link href="/project-details" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Premium Apartments
                 </h6>
                 <h3>
-                  <a href="project-details.html">A vintage postcard design</a>
+                  <Link href="/project-details">Affinity Brundhavana</Link>
                 </h3>
               </div>
             </div>
@@ -70,19 +79,22 @@ const RelatedProjects3 = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/building13.jpg" alt="img" />
-                <a href="/Relatedproject" className="lets-circle">
-                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>{" "}
+                <img
+                  src="assets/img/project/building13.jpg"
+                  alt="Affinity Brundhavana"
+                />
+                <Link href="/project-details" className="lets-circle">
+                  <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
-                </a>
+                </Link>
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Sustainable Living
                 </h6>
                 <h3>
-                  <a href="project-details.html">Color for simple Company</a>
+                  <Link href="/project-details">Affinity Brundhavana</Link>
                 </h3>
               </div>
             </div>

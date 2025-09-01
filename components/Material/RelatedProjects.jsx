@@ -38,7 +38,7 @@ const RelatedProjects4 = () => {
                   <span>//</span> creative art
                 </h6>
                 <h3>
-                  <a href="project-details.html">Stylishly extravagant toy</a>
+                  <a href="/Projectexplore">Centering Material</a>
                 </h3>
               </div>
             </div>
@@ -60,7 +60,7 @@ const RelatedProjects4 = () => {
                   <span>//</span> creative art
                 </h6>
                 <h3>
-                  <a href="project-details.html">A vintage postcard design</a>
+                  <a href="/Projectexplore">Centering Material</a>
                 </h3>
               </div>
             </div>
@@ -82,7 +82,7 @@ const RelatedProjects4 = () => {
                   <span>//</span> creative art
                 </h6>
                 <h3>
-                  <a href="project-details.html">Color for simple Company</a>
+                  <a href="/Projectexplore">Centering Material</a>
                 </h3>
               </div>
             </div>

@@ -14,21 +14,14 @@ const ProjectDetails = () => {
                     <img src="/assets/img/star-3.png" alt="star" /> Project Info
                   </h3>
                   <ul>
-                 <li>
-                      Company: Sri Balaji Ecstatic
-                    </li>
-
+                    <li>Company: Sri Balaji Ecstatic</li>
                     <li>
-                      Category:Construction & Infrastructure
+                      Project Name: Ace Ananta
                     </li>
+                    <li>Category: Premium Residential Development</li>
+                    <li>Start: 2022</li>
                     <li>
-                      Start: 2007
-                    </li>
-                    <li>
-                      Commitment: <span>On-time Delivery</span>
-                    </li>
-                    <li>
-                      Feedback: <span>Trusted Clients</span>
+                      Commitment: Luxury Living & On-time Delivery
                     </li>
                   </ul>
                 </div>
@@ -39,7 +32,7 @@ const ProjectDetails = () => {
                   <h2>
                     Have any project <span>contact</span> us
                   </h2>
-                  <a href="contact.html" className="theme-btn">
+                  <a href="/contact" className="theme-btn">
                     contact us{" "}
                     <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   </a>
@@ -50,55 +43,60 @@ const ProjectDetails = () => {
             {/* Content */}
             <div className="col-xl-8">
               <div className="project-details-content">
-                <h2>We are the Leader in Construction Industry</h2>
+                <h2>Ace Ananta – Where Luxury Meets Lifestyle</h2>
                 <p className="mb-5">
-                  Welcome to Sri Balaji Ecstatic Infra LLP, where innovation
-                  meets craftsmanship and excellence is our standard. Founded in
-                  2007, we have established ourselves as a leading name in the
-                  construction industry, serving clients with integrity and
-                  dedication. Our mission is not only to build structures but to
-                  foster trust, long-term relationships, and sustainable
-                  solutions for communities.
+                  Ace Ananta by Sri Balaji Ecstatic is a thoughtfully designed
+                  premium residential community that redefines modern living.
+                  Nestled in a prime location, Ace Ananta combines contemporary
+                  architecture, sustainable practices, and world-class amenities
+                  to offer an unmatched lifestyle for urban families seeking
+                  comfort and convenience.
                 </p>
                 <div className="details-image">
-                  <img src="/assets/img/project/ace5.jpg" alt="project" />
+                  <img src="/assets/img/project/ace5.jpg" alt="Ace Ananta" />
                 </div>
 
-                <h2>Our Project Strategy</h2>
+                <h2>Our Project Vision</h2>
                 <p className="mb-4">
-                  Every project begins with perfect planning, supported by our
-                  highly skilled team of engineers and architects. From
-                  conceptualization to execution, our strategy ensures quality
-                  materials, safety standards, and innovative designs are at the
-                  core of everything we deliver.
+                  The vision behind Ace Ananta is to create homes that are more
+                  than just living spaces — they are experiences. Every corner
+                  is designed to balance elegance with functionality, offering
+                  spacious layouts, natural light, and a serene environment
+                  where families can thrive.
                 </p>
                 <p className="mb-5">
-                  We focus on sustainability and environmental responsibility,
-                  ensuring that every project is future-ready. Our proven
-                  processes and reliable workforce guarantee on-time delivery
-                  with superior quality.
+                  With a strong focus on sustainability, Ace Ananta integrates
+                  eco-friendly designs, energy-efficient systems, and ample
+                  green landscapes, ensuring a healthier and future-ready living
+                  environment.
                 </p>
 
                 <div className="row g-4">
                   <div className="col-md-6">
                     <div className="details-image">
-                      <img src="/assets/img/project/ace22.jpg" alt="project" />
+                      <img
+                        src="/assets/img/project/ace22.jpg"
+                        alt="Ace Ananta"
+                      />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="details-image">
-                      <img src="/assets/img/project/ace44.jpg" alt="project" />
+                      <img
+                        src="/assets/img/project/ace44.jpg"
+                        alt="Ace Ananta"
+                      />
                     </div>
                   </div>
                 </div>
 
-                <h2>Our Working Process</h2>
+                <h2>Our Development Process</h2>
                 <p>
-                  At SBC Infra, we believe that construction is more than just
-                  creating buildings — it’s about delivering value, trust, and
-                  long-lasting impact. Our step-by-step process ensures seamless
-                  execution from planning, design, and material sourcing to
-                  final handover.
+                  At Ace Ananta, the development journey is guided by precision
+                  and excellence. From planning and design to execution, our
+                  process ensures uncompromised quality, safety, and timely
+                  delivery. Backed by a skilled team and innovative technology,
+                  every phase reflects our dedication to creating lasting value.
                 </p>
 
                 <div className="how-to-work-wrapper">
@@ -113,10 +111,10 @@ const ProjectDetails = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h3>Perfect Planning</h3>
+                      <h3>Smart Planning</h3>
                       <p>
-                        We create detailed plans to ensure smooth workflow and
-                        timely completion of projects.
+                        Careful planning ensures well-designed homes, seamless
+                        infrastructure, and maximum comfort for residents.
                       </p>
                     </div>
                   </div>
@@ -132,10 +130,10 @@ const ProjectDetails = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h3>Professional Execution</h3>
+                      <h3>Quality Execution</h3>
                       <p>
-                        Our skilled workforce and advanced tools guarantee
-                        flawless delivery and uncompromised quality.
+                        Advanced techniques and skilled professionals ensure
+                        precision construction and timely project completion.
                       </p>
                     </div>
                   </div>
@@ -151,37 +149,37 @@ const ProjectDetails = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h3>Trusted Support</h3>
+                      <h3>Enduring Trust</h3>
                       <p>
-                        Even after completion, we stay connected, offering
-                        reliable support and long-term partnership.
+                        Beyond handover, we continue to support our community,
+                        building long-lasting trust and satisfaction.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <h2>Results & Impact</h2>
+                <h2>Results & Lifestyle Impact</h2>
                 <p>
-                  Over the years, SBC Infra has completed landmark projects,
-                  from residential communities to commercial spaces and
-                  infrastructure developments. Our projects stand as a testament
-                  to our values — safety, quality, and customer satisfaction.
-                  Each structure reflects our promise to build a better and more
-                  sustainable future.
+                  Ace Ananta is more than just a project — it’s a lifestyle
+                  upgrade. With landscaped gardens, recreational zones, and
+                  wellness-focused amenities, the community encourages a
+                  balanced lifestyle. This project reflects our vision of
+                  delivering premium living while staying committed to
+                  sustainability and quality.
                 </p>
 
                 <ul className="details-list">
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    Commitment to safety and quality at every stage.
+                    Luxury residences with world-class amenities.
                   </li>
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    On-time delivery with professional workforce support.
+                    Eco-friendly construction for a sustainable tomorrow.
                   </li>
                   <li>
                     <i className="fa-solid fa-check-double"></i>
-                    Sustainable practices ensuring environmental responsibility.
+                    Located in a prime area with excellent connectivity.
                   </li>
                 </ul>
               </div>
