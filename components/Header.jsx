@@ -9,15 +9,17 @@ const ServicesMenu = ({ setMobileMenuOpen }) => {
   const router = useRouter();
   const pathname = usePathname();
 
-  const handleProjectsClick = (e) => {
+  const handleScroll = (e, sectionId) => {
     e.preventDefault();
 
     if (pathname === "/") {
-      const target = document.getElementById("projects");
+      // Already on home page, scroll to the target section
+      const target = document.getElementById(sectionId);
       if (target) target.scrollIntoView({ behavior: "smooth" });
       setMobileMenuOpen(false);
     } else {
-      router.push("/#projects");
+      // Navigate to home page and scroll after render
+      router.push(`/#${sectionId}`);
       setMobileMenuOpen(false);
     }
   };
@@ -29,8 +31,13 @@ const ServicesMenu = ({ setMobileMenuOpen }) => {
       </Link>
       <ul className="submenu">
         <li>
-          <a href="/#projects" onClick={handleProjectsClick}>
-            Projects
+          <a href="/#services" onClick={(e) => handleScroll(e, "services")}>
+            Our Services
+          </a>
+        </li>
+        <li>
+          <a href="/#projects" onClick={(e) => handleScroll(e, "projects")}>
+            Our Projects
           </a>
         </li>
       </ul>

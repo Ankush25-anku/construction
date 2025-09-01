@@ -4,13 +4,13 @@ import React from "react";
 import Link from "next/link";
 
 const Footer = () => {
-  const handleScrollToProjects = (e) => {
+  const handleScroll = (e, sectionId) => {
     e.preventDefault();
-    const target = document.getElementById("projects");
+    const target = document.getElementById(sectionId);
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
     } else {
-      console.warn("Element with id 'projects' not found.");
+      console.warn(`Element with id '${sectionId}' not found.`);
     }
   };
 
@@ -59,7 +59,18 @@ const Footer = () => {
                     <a href="/contact">Contact us</a>
                   </li>
                   <li>
-                    <a href="#projects" onClick={handleScrollToProjects}>
+                    <a
+                      href="#services"
+                      onClick={(e) => handleScroll(e, "services")}
+                    >
+                      Services
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#projects"
+                      onClick={(e) => handleScroll(e, "projects")}
+                    >
                       Projects
                     </a>
                   </li>

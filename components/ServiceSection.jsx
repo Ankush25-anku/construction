@@ -4,6 +4,7 @@ import Link from "next/link";
 const ServiceSection = () => {
   return (
     <section
+      id="services"
       className="service-section fix section-padding section-bg bg-cover"
       style={{ backgroundImage: "url('/assets/img/service/servicebg1.png')" }}
     >
@@ -45,10 +46,10 @@ const ServiceSection = () => {
                   Delivering robust infrastructure projects with precision,
                   quality, and long-lasting durability.
                 </p>
-                <Link href="/servicedetails" className="link-btn">
+                {/* <Link href="/servicedetails" className="link-btn">
                   More details{" "}
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -69,10 +70,10 @@ const ServiceSection = () => {
                   Transform your living space with modern, efficient, and
                   innovative renovation solutions.
                 </p>
-                <Link href="/servicedetails" className="link-btn">
+                {/* <Link href="/servicedetails" className="link-btn">
                   More details{" "}
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -93,10 +94,10 @@ const ServiceSection = () => {
                   Creative and functional designs that bring your vision to life
                   while ensuring structural excellence.
                 </p>
-                <Link href="/servicedetails" className="link-btn">
+                {/* <Link href="/servicedetails" className="link-btn">
                   More details{" "}
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -117,10 +118,10 @@ const ServiceSection = () => {
                   Elevate interiors with modern, stylish, and practical designs
                   tailored to your lifestyle.
                 </p>
-                <Link href="/servicedetails" className="link-btn">
+                {/* <Link href="/servicedetails" className="link-btn">
                   More details{" "}
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -144,10 +145,10 @@ const ServiceSection = () => {
                   ensure seamless installation and maintenance for your
                   projects.
                 </p>
-                <Link href="/servicedetails" className="link-btn">
+                {/* <Link href="/servicedetails" className="link-btn">
                   More details{" "}
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -168,10 +169,10 @@ const ServiceSection = () => {
                   Comprehensive labour and material contract services to deliver
                   cost-effective and high-quality results
                 </p>
-                <Link href="/servicedetails" className="link-btn">
+                {/* <Link href="/servicedetails" className="link-btn">
                   More details{" "}
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
