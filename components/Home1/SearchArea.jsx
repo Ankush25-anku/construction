@@ -2,7 +2,7 @@
 
 import { FaTimes } from "react-icons/fa";
 
-export default function SearchArea() {
+export default function   SearchArea() {
   return (
     <div className="search-wrap">
       <div className="search-inner">

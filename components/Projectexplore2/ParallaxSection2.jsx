@@ -22,7 +22,7 @@
 // export default ParallaxSection2;
 "use client";
 import React, { useState } from "react";
-import Preloader from "../Preloader";
+import Preloader from "../Home1/Preloader";
 
 const ParallaxSection2 = () => {
   const [loading, setLoading] = useState(false); // controls preloader

@@ -9,15 +9,15 @@ import "../../public/assets/css/swiper-bundle.min.css";
 import "../../public/assets/css/nice-select.css";
 import "../../public/assets/css/color.css";
 import "../../public/assets/css/main.css";
-import SearchArea from "../../components/SearchArea";
+import SearchArea from "../../components/Home1/SearchArea";
 import Script from "next/script";
 
-import Header from "../../components/Header";
-import MouseCursor from "../../components/MouseCursor";
-import Preloader from "../../components/Preloader";
-import ScrollToTop from "../../components/ScrollToTop";
-import OffcanvasSidebar from "../../components/OffcanvasSidebar";
-import Footer from "../../components/Footer";
+import Header from "../../components/Home1/Header";
+import MouseCursor from "../../components/Home1/MouseCursor";
+import Preloader from "../../components/Home1/Preloader";
+import ScrollToTop from "../../components/Home1/ScrollToTop";
+import OffcanvasSidebar from "../../components/Home1/OffcanvasSidebar";
+import Footer from "../../components/Home1/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         <meta name="author" content="namespace-it" />
         <meta name="description" content="Sri Balaji Ecstatic Infra LLP" />
         <title>Sri Balaji Ecstatic Infra LLP</title>
-        <link rel="shortcut icon" href="assets/img/favicon.svg" />
+        <link rel="shortcut icon" href="assets/img/Vector.svg" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

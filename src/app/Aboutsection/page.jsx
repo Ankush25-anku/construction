@@ -1,6 +1,6 @@
 import React from "react";
 // import Header from "../../../components/Header";
-import AboutSection from "../../../components/AboutSection";
+import AboutSection from "../../../components/Home1/AboutSection";
 
 // import Footer from "../../../components/Footer";
 
@@ -15,4 +15,3 @@ const page = () => {
 };
 
 export default page;
-

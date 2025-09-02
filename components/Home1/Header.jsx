@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
@@ -48,9 +47,24 @@ const ServicesMenu = ({ setMobileMenuOpen }) => {
 // -------------------- HEADER COMPONENT --------------------
 const HeaderHome1 = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   const handleHamburgerClick = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+
+    if (pathname === "/") {
+      const target = document.getElementById(sectionId);
+      if (target) target.scrollIntoView({ behavior: "smooth" });
+      setMobileMenuOpen(false);
+    } else {
+      router.push(`/#${sectionId}`);
+      setMobileMenuOpen(false);
+    }
   };
 
   return (
@@ -81,9 +95,14 @@ const HeaderHome1 = () => {
                         <Link href="/">Home</Link>
                       </li>
 
-                      {/* About */}
+                      {/* ✅ About (scroll to section) */}
                       <li>
-                        <Link href="/Aboutsection">About Us</Link>
+                        <a
+                          href="/#about"
+                          onClick={(e) => handleScroll(e, "about")}
+                        >
+                          About Us
+                        </a>
                       </li>
 
                       {/* Services */}
@@ -91,7 +110,12 @@ const HeaderHome1 = () => {
 
                       {/* Contact */}
                       <li>
-                        <Link href="/contact">Contact</Link>
+                        <a
+                          href="/#contact"
+                          onClick={(e) => handleScroll(e, "contact")}
+                        >
+                          Contact
+                        </a>
                       </li>
                     </ul>
                   </nav>

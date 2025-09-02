@@ -1,6 +1,6 @@
 import React from "react";
 // import Header from "../../../components/Header";
-import ServiceSection from "../../../components/ServiceSection";
+import ServiceSection from "../../../components/Home1/ServiceSection";
 // import Footer from "../../../components/Footer";
 
 const page = () => {

@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function ContactInfo() {
   return (
     <section
+      id="contact" // ✅ Added ID so header scroll works
       className="service-section fix section-padding section-bg bg-cover"
       style={{ backgroundImage: "url('/assets/img/hero/hero-bg-34.png')" }}
     >

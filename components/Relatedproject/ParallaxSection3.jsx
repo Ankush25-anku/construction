@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Preloader from "../Preloader"; // ✅ adjust import path if needed
+import Preloader from "../Home1/Preloader"; // ✅ adjust import path if needed
 
 const ParallaxSection3 = () => {
   const [loading, setLoading] = useState(false); // controls preloader

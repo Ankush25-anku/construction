@@ -2,7 +2,10 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="about-section section-padding section-bg fix">
+    <section
+      id="about"
+      className="about-section section-padding section-bg fix"
+    >
       {/* Decorative Backgrounds */}
       <div className="bg-shape">
         <img src="assets/img/about/bg-shape.png" alt="shape" />

@@ -53,10 +53,19 @@ const Footer = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <a href="/Aboutsection">About us</a>
+                    {/* ✅ Changed to scroll-to-contact */}
+                    <a href="#about" onClick={(e) => handleScroll(e, "about")}>
+                      About us
+                    </a>
                   </li>
                   <li>
-                    <a href="/contact">Contact us</a>
+                    {/* ✅ Changed to scroll-to-contact */}
+                    <a
+                      href="#contact"
+                      onClick={(e) => handleScroll(e, "contact")}
+                    >
+                      Contact us
+                    </a>
                   </li>
                   <li>
                     <a
@@ -111,7 +120,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
             {/* End Instagram Widget */}
           </div>
         </div>
