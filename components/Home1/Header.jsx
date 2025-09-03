@@ -99,7 +99,7 @@ const HeaderHome1 = () => {
                           href="/#projects"
                           onClick={(e) => handleScroll(e, "projects")}
                         >
-                           Projects
+                          Projects
                         </a>
                       </li>
 
@@ -109,7 +109,7 @@ const HeaderHome1 = () => {
                           href="/#contact"
                           onClick={(e) => handleScroll(e, "contact")}
                         >
-                          Contact
+                          Contact us
                         </a>
                       </li>
                     </ul>
