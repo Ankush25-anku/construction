@@ -51,7 +51,7 @@ const RelatedProjects = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="portfolio-card-items">
               <div className="portfolio-image">
-                <img src="assets/img/project/Ace33.jpg" alt="Ace Ananta" />
+                <img src="assets/img/project/ace33.jpg" alt="Ace Ananta" />
                 <Link href="/Projectexplore" className="lets-circle">
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
