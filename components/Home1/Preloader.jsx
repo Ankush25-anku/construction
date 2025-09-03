@@ -24,27 +24,27 @@ export default function Preloader() {
   return (
     <div
       id="preloader"
-      className="preloader flex flex-col items-center justify-center text-center px-4"
+      className="preloader flex flex-col items-center justify-center text-center px-4 min-h-screen"
     >
-      <div className="animation-preloader w-full max-w-[90%] sm:max-w-[400px]">
-        {/* ✅ Logo centered */}
-        <div className="mb-4 flex justify-center">
+      <div className="animation-preloader w-full max-w-[95%] sm:max-w-[420px] mx-auto">
+        {/* ✅ Logo responsive & centered */}
+        <div className="mb-6 flex justify-center">
           <img
             src="/assets/img/logo/logo.png"
             alt="Company Logo"
-            className="object-contain max-w-[100px] sm:max-w-[120px] h-auto"
+            className="object-contain w-[80px] sm:w-[120px] h-auto"
             width={120}
             height={120}
           />
         </div>
 
-        {/* ✅ Company name letters, wrap nicely on small screens */}
-        <div className="txt-loading company-name flex flex-wrap justify-center leading-tight">
+        {/* ✅ Company name letters wrap nicely */}
+        <div className="txt-loading company-name flex flex-wrap justify-center leading-tight gap-[2px] sm:gap-[3px]">
           {"Sri Balaji Ecstatic Infra LLP".split("").map((letter, idx) => (
             <span
               key={idx}
               data-text-preloader={letter}
-              className="letters-loading text-base sm:text-lg"
+              className="letters-loading text-sm xs:text-base sm:text-lg"
             >
               {letter === " " ? "\u00A0" : letter}
             </span>
