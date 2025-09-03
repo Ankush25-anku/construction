@@ -1,113 +1,111 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
+import { useRouter, usePathname } from "next/navigation";
 
-const Header = () => {
+// -------------------- SERVICES MENU COMPONENT --------------------
+const ServicesMenu = ({ setMobileMenuOpen }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+
+    if (pathname === "/") {
+      // Already on home page, scroll to the target section
+      const target = document.getElementById(sectionId);
+      if (target) target.scrollIntoView({ behavior: "smooth" });
+      setMobileMenuOpen(false);
+    } else {
+      // Navigate to home page and scroll after render
+      router.push(`/#${sectionId}`);
+      setMobileMenuOpen(false);
+    }
+  };
+};
+
+// -------------------- HEADER COMPONENT --------------------
+const HeaderHome1 = () => {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleHamburgerClick = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+
+    if (pathname === "/") {
+      const target = document.getElementById(sectionId);
+      if (target) target.scrollIntoView({ behavior: "smooth" });
+      setMobileMenuOpen(false);
+    } else {
+      router.push(`/#${sectionId}`);
+      setMobileMenuOpen(false);
+    }
+  };
+
   return (
     <header id="header-sticky" className="header-1">
       <div className="container-fluid">
         <div className="mega-menu-wrapper">
-          <div className="header-main">
-            {/* Logo */}
-            <div className="logo">
-              <Link href="/" className="header-logo">
-                <img src="/assets/img/hero1/Iphone.png" alt="logo-img" />
-              </Link>
-            </div>
+          <div className="header-main d-flex justify-content-between align-items-center">
+            {/* ---------------- HEADER LEFT ---------------- */}
+            <div className="header-left d-flex align-items-center">
+              {/* Logo */}
+              <div className="logo">
+                <Link href="/" className="header-logo">
+                  <img src="/assets/img/hero/modify1.png" alt="logo-img" />
+                </Link>
+              </div>
 
-            {/* Menu */}
-            <div className="mean__menu-wrapper">
-              <div className="main-menu">
-                <nav id="mobile-menu">
-                  <ul>
-                    {/* Home Dropdown */}
-                    <li className="has-dropdown">
-                      <Link href="/">Home</Link>
-                      {/* <ul className="submenu">
-                        <li>
-                          <Link href="/">Home 01</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-2">Home 02</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-3">Home 03</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-4">Home 04</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-5">Home 05</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-6">Home 06</Link>
-                        </li>
-                      </ul> */}
-                    </li>
+              {/* Main Navigation */}
+              <div
+                className={`mean__menu-wrapper ${
+                  isMobileMenuOpen ? "open" : ""
+                }`}
+              >
+                <div className="main-menu">
+                  <nav id="mobile-menu">
+                    <ul>
+                      {/* Home */}
+                      <li className="has-dropdown">
+                        <Link href="/">Home</Link>
+                      </li>
 
-                    {/* About */}
-                    <li>
-                      <Link href="/Aboutsection">About Us</Link>
-                    </li>
+                      {/* ✅ About (scroll to section) */}
+                      <li>
+                        <Link href="/Aboutsection">About Us</Link>
+                      </li>
 
-                    {/* Pages Dropdown */}
-                    <li className="has-dropdown">
-                      <Link href="/news">
-                        Pages <i className="fa-solid fa-chevron-down"></i>
-                      </Link>
-                      <ul className="submenu">
-                        <li>
-                          <Link href="/Servicesection">Services</Link>
-                        </li>
-                        {/* <li>
-                          <Link href="/team">Team</Link>
-                        </li>
-                        <li>
-                          <Link href="/project">Portfolio</Link>
-                        </li>
-                        <li>
-                          <Link href="/project-details">Portfolio Details</Link>
-                        </li>
-                        <li>
-                          <Link href="/pricing">Pricing</Link>
-                        </li>
-                        <li>
-                          <Link href="/faq">Our Faq</Link>
-                        </li>
-                        <li>
-                          <Link href="/login">Login</Link>
-                        </li>
-                        <li>
-                          <Link href="/register">Register</Link>
-                        </li>
-                        <li>
-                          <Link href="/404">404 Page</Link>
-                        </li> */}
-                      </ul>
-                    </li>
+                      {/* Services */}
+                      <li>
+                        <Link href="/services">Services</Link>
+                      </li>
+                      <li>
+                        <Link href="/projects1">Projects</Link>
+                      </li>
 
-                   
-
-                    {/* Contact */}
-                    <li>
-                      <Link href="/contact">Contact</Link>
-                    </li>
-                  </ul>
-                </nav>
+                      {/* Contact */}
+                       <li>
+                        <Link href="/contact">Contact</Link>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
 
-            {/* Right Side */}
-            <div className="header-right d-flex justify-content-end align-items-center">
-              {/* <Link href="/login" className="join-text">
-                <img src="/assets/img/discord.svg" alt="img" /> Join now
-              </Link> */}
-              {/* 
-              <a href="#0" className="search-trigger search-icon">
-                <i className="fa-regular fa-magnifying-glass"></i>
-              </a> */}
-
-              <div className="header__hamburger d-xl-block my-auto">
+            {/* ---------------- HEADER RIGHT ---------------- */}
+            <div className="header-right d-flex align-items-center">
+              {/* Hamburger Menu */}
+              <div
+                className="header__hamburger d-xl-block my-auto ms-3"
+                onClick={handleHamburgerClick}
+                style={{ cursor: "pointer" }}
+              >
                 <div className="sidebar__toggle">
                   <i className="fas fa-bars"></i>
                 </div>
@@ -116,8 +114,16 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      {/* ---------------- MOBILE MENU OVERLAY ---------------- */}
+      {isMobileMenuOpen && (
+        <div
+          className="mobile-menu-overlay"
+          onClick={() => setMobileMenuOpen(false)}
+        ></div>
+      )}
     </header>
   );
 };
 
-export default Header;
+export default HeaderHome1;

@@ -12,12 +12,12 @@ import "../../public/assets/css/main.css";
 import SearchArea from "../../components/Home1/SearchArea";
 import Script from "next/script";
 
-import Header from "../../components/Home1/Header";
+// import Header from "../../components/Home1/Header";
 import MouseCursor from "../../components/Home1/MouseCursor";
 import Preloader from "../../components/Home1/Preloader";
 import ScrollToTop from "../../components/Home1/ScrollToTop";
 import OffcanvasSidebar from "../../components/Home1/OffcanvasSidebar";
-import Footer from "../../components/Home1/Footer";
+// import Footer from "../../components/Home1/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,14 +49,14 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
+        {/* <Header /> */}
         <OffcanvasSidebar />
         <SearchArea />
         <Preloader />
         <ScrollToTop />
         {children}
         <MouseCursor />
-        <Footer />
+        {/* <Footer /> */}
 
         {/* JS Files */}
         <Script

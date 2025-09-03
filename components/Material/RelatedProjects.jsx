@@ -30,11 +30,7 @@ const RelatedProjects4 = () => {
             <div className="portfolio-card-items">
               <div className="portfolio-image">
                 <img src="assets/img/project/material8.jpg" alt="img" />
-                <Link
-                  href="/Material"
-                  className="lets-circle"
-                  scroll={true}
-                >
+                <Link href="/Material" className="lets-circle" scroll={true}>
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
@@ -42,7 +38,7 @@ const RelatedProjects4 = () => {
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Shuttering Plates
                 </h6>
                 <Link href="/Material">Centering Material</Link>
               </div>
@@ -54,11 +50,7 @@ const RelatedProjects4 = () => {
             <div className="portfolio-card-items">
               <div className="portfolio-image">
                 <img src="assets/img/project/material5.jpg" alt="img" />
-                <Link
-                  href="/Material"
-                  className="lets-circle"
-                  scroll={true}
-                >
+                <Link href="/Material" className="lets-circle" scroll={true}>
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
@@ -66,7 +58,7 @@ const RelatedProjects4 = () => {
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Scaffolding Pipes
                 </h6>
                 <Link href="/Material">Centering Material</Link>
               </div>
@@ -78,11 +70,7 @@ const RelatedProjects4 = () => {
             <div className="portfolio-card-items">
               <div className="portfolio-image">
                 <img src="assets/img/project/material3.jpg" alt="img" />
-                <Link
-                  href="/Material"
-                  className="lets-circle"
-                  scroll={true}
-                >
+                <Link href="/Material" className="lets-circle" scroll={true}>
                   <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                   <br />
                   Project details
@@ -90,7 +78,7 @@ const RelatedProjects4 = () => {
               </div>
               <div className="portfolio-content">
                 <h6>
-                  <span>//</span> creative art
+                  <span>//</span> Adjustable Props
                 </h6>
                 <Link href="/Material">Centering Material</Link>
               </div>

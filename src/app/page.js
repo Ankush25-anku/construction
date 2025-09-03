@@ -1,5 +1,5 @@
 import Image from "next/image";
-// import Header from "../../components/Header";
+import Header from "../../components/Home1/Header";
 import HeroSection from "../../components/Home1/HeroSection";
 import AboutSection from "../../components/Home1/AboutSection";
 import ServiceSection from "../../components/Home1/ServiceSection";
@@ -8,6 +8,7 @@ import FAQSection from "../../components/Home1/FAQSection";
 import TestimonialSection from "../../components/Home1/TestimonialSection";
 
 import ContactInfo from "../../components/Home1/ContactSection";
+import Footer from "../../components/Home1/Footer";
 // import Footer from "../../components/Footer";
 
 // import OffcanvasSidebar from "../../components/OffcanvasSidebar";
@@ -15,7 +16,7 @@ import ContactInfo from "../../components/Home1/ContactSection";
 export default function Home() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       {/* <OffcanvasSidebar /> */}
       <HeroSection />
       <AboutSection />
@@ -24,6 +25,7 @@ export default function Home() {
       <ProjectSection />
       <TestimonialSection />
       <ContactInfo />
+      <Footer />
       {/* <Footer /> */}
     </div>
   );

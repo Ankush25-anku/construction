@@ -1,18 +1,14 @@
 import React from "react";
-// import Header from "../../../components/Header";
-import AboutSection from "../../../components/Home1/AboutSection";
 import HeaderHome1 from "../../../components/Projectexplore/exploreHeader";
+import ServiceSection from "../../../components/Home1/ServiceSection";
 import Footer from "../../../components/Projectexplore/projectFooter";
-
-// import Footer from "../../../components/Footer";
 
 const page = () => {
   return (
     <div>
       <HeaderHome1 />
-      <AboutSection />
+      <ServiceSection />
       <Footer />
-      {/* <Footer /> */}
     </div>
   );
 };

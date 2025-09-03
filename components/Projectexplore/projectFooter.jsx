@@ -1,11 +1,24 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+
 const Footer = () => {
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+    const target = document.getElementById(sectionId);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.warn(`Element with id '${sectionId}' not found.`);
+    }
+  };
+
   return (
     <footer className="footer-section footer-bg">
       <div className="container">
         <div className="footer-widgets-wrapper">
-          <div className="row">
+          <div className="row justify-content-between">
             {/* Newsletter Widget */}
             <div
               className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
@@ -15,11 +28,9 @@ const Footer = () => {
                 <div className="footer-content">
                   <div className="logo mb-3">
                     <Link href="/" className="header-logo">
-                      <img src="/assets/img/logo/iphoneSE.png" alt="logo-img" />
-                      {/* If you want text beside logo → <span className="logo-text">SBC</span> */}
+                      <img src="/assets/img/hero/modify1.png" alt="logo-img" />
                     </Link>
                   </div>
-
                   <p>
                     Sri Balaji Ecstatic Infra LLP (SBC) is dedicated to
                     delivering excellence in construction, infrastructure, and
@@ -27,19 +38,6 @@ const Footer = () => {
                     innovation, and timely delivery, we bring your vision to
                     life with precision and care.
                   </p>
-
-                  {/* 
-    <div className="footer-input">
-      <input
-        type="text"
-        id="sbc-message"
-        placeholder="Write your message..."
-      />
-      <button className="newsletter-btn" type="submit">
-        <img src="assets/img/circle-check.png" alt="send" />
-      </button>
-    </div> 
-    */}
                 </div>
               </div>
             </div>
@@ -55,116 +53,55 @@ const Footer = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <a href="/Aboutsection">About us</a>
+                    <Link href="/Aboutsection">About us</Link>
                   </li>
                   <li>
-                    <a href="/contact">Opportunity</a>
+                    <Link href="/services">Services</Link>
                   </li>
                   <li>
-                    <a href="/contact">Events</a>
+                    <Link href="/projects1">Projects</Link>
                   </li>
                   <li>
-                    <a href="/contact">Consulting</a>
-                  </li>
-                  <li>
-                    <a href="news.html">Our blog</a>
-                  </li>
-                  <li>
-                    <a href="/contact">Contact us</a>
-                  </li>
-                  <li>
-                    <a href="/contact">Careers</a>
-                  </li>
-                  <li>
-                    <a href="login.html">User login</a>
+                    <Link href="/contact">Contact us</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* Services Links */}
-            {/* <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
-              data-wow-delay=".6s"
-            >
-              <div className="single-footer-widget">
-                <div className="widget-head">
-                  <h3>Company</h3>
-                </div>
-                <ul className="list-items">
-                  <li>
-                    <a href="service.html">Graphic design</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Marketing</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Photography</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Art generate</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Face swap</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Interior design</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Face swap</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Mockup create</a>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-
-            {/* Instagram Gallery */}
-            {/* <div
+            {/* Instagram Widget */}
+            <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-3 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".6s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <h3>Instagram</h3>
                 </div>
                 <div className="row g-3">
-                  <div className="col-md-6 col-sm-4 col-4">
+                  <div className="col-6 col-sm-6 col-md-6">
                     <div className="footer-thumb">
-                      <img src="assets/img/footer/gallery-1.jpg" alt="img" />
-                      <a href="index.html" className="icon">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
+                      <img src="assets/img/footer/const1.jpg" alt="img" />
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-4 col-4">
+                  <div className="col-6 col-sm-6 col-md-6">
                     <div className="footer-thumb">
-                      <img src="assets/img/footer/gallery-2.jpg" alt="img" />
-                      <a href="index.html" className="icon">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
+                      <img src="assets/img/footer/const4.jpg" alt="img" />
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-4 col-4">
+                  <div className="col-6 col-sm-6 col-md-6">
                     <div className="footer-thumb">
-                      <img src="assets/img/footer/gallery-3.jpg" alt="img" />
-                      <a href="index.html" className="icon">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
+                      <img src="assets/img/footer/const2.jpg" alt="img" />
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-4 col-4">
+                  <div className="col-6 col-sm-6 col-md-6">
                     <div className="footer-thumb">
-                      <img src="assets/img/footer/gallery-4.jpg" alt="img" />
-                      <a href="index.html" className="icon">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
+                      <img src="assets/img/footer/const3.jpg" alt="img" />
                     </div>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
+            {/* End Instagram Widget */}
           </div>
         </div>
       </div>
@@ -172,16 +109,31 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="footer-bottom">
         <div className="container">
-          <div className="footer-bottom-wrapper">
+          <div className="footer-bottom-wrapper d-flex flex-column flex-md-row justify-content-between align-items-center">
             <div className="logo-img wow fadeInUp" data-wow-delay=".3s">
-              <a href="index.html">
-                <img src="/assets/img/hero/iphonese1.png" alt="img" />
+              <a
+                href="https://www.rctechbox.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/img/hero/modify1.png" alt="img" />
               </a>
             </div>
-            <p className="wow fadeInUp" data-wow-delay=".5s">
-              Namespaceit © 2024. All Rights Reserved.
+            <p className="wow fadeInUp mt-2 mt-md-0" data-wow-delay=".5s">
+              <a
+                href="https://www.rctechbox.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RC Techbox IT Services
+              </a>{" "}
+              © 2025. All Rights Reserved.
             </p>
-            <div className="social-icon wow fadeInUp" data-wow-delay=".7s">
+
+            <div
+              className="social-icon wow fadeInUp mt-2 mt-md-0"
+              data-wow-delay=".7s"
+            >
               <a href="#">
                 <i className="fa-brands fa-discord"></i>
               </a>

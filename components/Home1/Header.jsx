@@ -22,26 +22,6 @@ const ServicesMenu = ({ setMobileMenuOpen }) => {
       setMobileMenuOpen(false);
     }
   };
-
-  return (
-    <li className="has-dropdown">
-      <Link href="/Servicesection">
-        Services <i className="fa-solid fa-chevron-down"></i>
-      </Link>
-      <ul className="submenu">
-        <li>
-          <a href="/#services" onClick={(e) => handleScroll(e, "services")}>
-            Our Services
-          </a>
-        </li>
-        <li>
-          <a href="/#projects" onClick={(e) => handleScroll(e, "projects")}>
-            Our Projects
-          </a>
-        </li>
-      </ul>
-    </li>
-  );
 };
 
 // -------------------- HEADER COMPONENT --------------------
@@ -106,7 +86,22 @@ const HeaderHome1 = () => {
                       </li>
 
                       {/* Services */}
-                      <ServicesMenu setMobileMenuOpen={setMobileMenuOpen} />
+                      <li>
+                        <a
+                          href="/#services"
+                          onClick={(e) => handleScroll(e, "services")}
+                        >
+                          Services
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/#projects"
+                          onClick={(e) => handleScroll(e, "projects")}
+                        >
+                           Projects
+                        </a>
+                      </li>
 
                       {/* Contact */}
                       <li>

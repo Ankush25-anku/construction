@@ -58,15 +58,7 @@ const Footer = () => {
                       About us
                     </a>
                   </li>
-                  <li>
-                    {/* ✅ Changed to scroll-to-contact */}
-                    <a
-                      href="#contact"
-                      onClick={(e) => handleScroll(e, "contact")}
-                    >
-                      Contact us
-                    </a>
-                  </li>
+
                   <li>
                     <a
                       href="#services"
@@ -81,6 +73,16 @@ const Footer = () => {
                       onClick={(e) => handleScroll(e, "projects")}
                     >
                       Projects
+                    </a>
+                  </li>
+
+                  <li>
+                    {/* ✅ Changed to scroll-to-contact */}
+                    <a
+                      href="#contact"
+                      onClick={(e) => handleScroll(e, "contact")}
+                    >
+                      Contact us
                     </a>
                   </li>
                 </ul>
